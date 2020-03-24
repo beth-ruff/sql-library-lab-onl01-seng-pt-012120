@@ -23,7 +23,7 @@ end
 
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, series.subgenres 
-  FROM series
+  FROM authors
   "
 end
 
